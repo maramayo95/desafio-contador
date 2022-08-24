@@ -1,0 +1,38 @@
+body {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  color: #fafafa;
+}
+
+.counter-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.37);
+  margin:10px;
+  -webkit-backdrop-filter: blur( 4px );
+  width: 500px;
+  height: 350px;
+}
+
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 10px 15px;
+  margin: 2px;
+  color: #fafafa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media(max-width: 800px) {
+  .counter-box{
+      max-width: 80vw;
+  }
+}
